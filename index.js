@@ -1,21 +1,21 @@
-var pon = 5400;
-var resu
-if (pon <= 1000){
-resu = ("Nível Ferro");
+var pontos = 5400;
+var resultado
+if (pontos <= 1000){
+resultado = ("Nível Ferro");
 } 
-else if (pon >= 1001 &&  2000){
-resu = ("Nivel Bronze");
+else if (pontos >= 1001 &&  2000){
+resultado = ("Nivel Bronze");
 }
-if (pon >= 2001 &&  3000){ 
-resu = ("Nivel Prata");
+if (pontos >= 2001 &&  3000){ 
+resultado = ("Nivel Prata");
 }    
-if (pon >= 3001 &&  4000){ 
-resu = ("Nivel Ouro");
+if (pontos >= 3001 &&  4000){ 
+resultado = ("Nivel Ouro");
 } 
-if (pon >= 4001 &&  5000){ 
-resu = ("Nivel Diamante");
+if (pontos >= 4001 &&  5000){ 
+resultado = ("Nivel Diamante");
 }
-if (pon > 5000){
-resu = ("Nivel Foda");
+if (pontos > 5000){
+resultado = ("Nivel Foda");
 } 
-console.log(resu)
+console.log(resultado)
